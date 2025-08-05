@@ -1,0 +1,37 @@
+/hotel-system
+│
+├── /classes              # PHP classes
+│   ├── User.php          # User authentication and RBAC
+│   ├── Room.php          # Room management
+│   ├── Booking.php       # Booking operations
+│   ├── RoleManager.php   # Role-based access control
+│   ├── Logger.php        # Audit logging
+│   └── Database.php      # Database connection
+│
+├── /js
+│   ├── main.js           # Main JavaScript functions
+│   ├── encryption.js     # Client-side encryption
+│   └── validation.js     # Form validation
+│
+├── /css
+│   └── styles.css        # Main stylesheet
+│
+├── /pages
+│   ├── auth
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── guest
+│   │   ├── dashboard.php
+│   │   ├── book-room.php
+│   │   └── bookings.php
+│   ├── admin
+│   │   ├── dashboard.php
+│   │   ├── manage-rooms.php
+│   │   ├── manage-bookings.php
+│   │   └── audit-logs.php
+│   └── shared
+│       ├── header.php
+│       └── footer.php
+│
+├── config.php            # Configuration and database credentials
+└── index.php             # Entry point
